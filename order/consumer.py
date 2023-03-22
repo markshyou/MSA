@@ -7,7 +7,7 @@ django.setup()
 from user_order.models import Order,Shop
 
 
-params = pika.URLParameters('amqps://xkiwqhmr:c1UHPadXstZU23g6xdB8B2BZiVlxGDEp@dingo.rmq.cloudamqp.com/xkiwqhmr')
+params = pika.URLParameters('amqps://fwvhtkhf:i5nTBg4I3H6w-lQxEraNGTNQVDOsepDQ@dingo.rmq.cloudamqp.com/fwvhtkhf')
 
 connection = pika.BlockingConnection(params)
 
